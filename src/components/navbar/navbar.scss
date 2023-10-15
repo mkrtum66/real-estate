@@ -1,0 +1,43 @@
+.navbar{
+  max-height: 90px;
+  .navbar-brand{
+    cursor: pointer;
+    img{
+      width: 100px;
+      height: auto;
+      max-height: 64px;
+    }
+  }
+  .navbar-toggler{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
+  .navbar-collapse{
+    z-index: 99;
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+  }
+}
+.navlinks{
+  a{
+    text-decoration: none;
+    color: black;
+    transition: all 150ms ease-in-out;
+    &:hover{
+      font-weight: 700;
+      transform: scale(1.05);
+      @media (max-width: 991px) {
+        transform: none;
+      }
+    }
+    &.active{
+      font-weight: 700;
+      transform: scale(1.05);
+      @media (max-width: 991px) {
+        transform: none;
+      }
+    }
+  }
+}

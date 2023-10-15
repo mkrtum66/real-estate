@@ -1,0 +1,17 @@
+.pnf{
+  .page-not-found{
+    max-width: 860px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    img{
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+  .text{
+    text-align: center;
+    font-size: 48px;
+  }
+}
